@@ -10,14 +10,22 @@ header {
   box-sizing: border-box;
   background-image: linear-gradient(to right, #0B8494, #125B9A);
   display: flex;
+  justify-content: center;
   align-items: center;
   border: ridge #FFBE98;
+  padding: 10px 0;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
 header .menu {
-  flex-grow: 1;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
